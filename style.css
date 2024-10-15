@@ -2,8 +2,24 @@ body {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,251,155,1) 14%, rgba(0,212,255,1) 100%);
 }
+
 header {
     display:flex;
     justify-content: center;
     
+}
+
+.nav-lista  {
+display: flex;
+list-style: none;
+font-size: 40px;
+color: black;
+gap: 28px;
+text-transform: uppercase;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    background-color: bisque;
+    color: antiquewhite;
 }
