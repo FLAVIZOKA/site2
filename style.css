@@ -34,7 +34,7 @@ padding-left: 8%;
     padding-top: 8%;
 }
 
-.moldura videos {
+.moldura_videos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
